@@ -1,0 +1,36 @@
+
+    d.z_drift_samples(isnan(d.z_drift_samples)) = 0.0; % get rid of NaN        
+    events=sort(size(d.pulse_area_phe)); %The first element is the number of pulses. sometimes it's 5, sometimes it's 10
+          
+    s1_area_cut= inrange(d.pulse_area_phe,[s1area_bound_min,s1area_bound_max]);
+    s2_area_cut= inrange(d.pulse_area_phe,[s2area_bound_min,s2area_bound_max]);
+    
+    s1_class=(d.pulse_classification==1 )& s1_area_cut ; %area cut for Kr events
+    s2_class=(d.pulse_classification==2) & s2_area_cut ;   
+    s4_class=(d.pulse_classification==4) ;
+   
+
+%     s1_single_cut =logical( (s1_class & d.golden & d.selected_s1_s2).*repmat(sum(s2_class & d.golden & d.selected_s1_s2)==1,events(1),1) ); % was s1_before_s2_cut before using golden
+%     s2_single_cut =logical( (s2_class & d.golden & d.selected_s1_s2).*repmat(sum(s1_class & d.golden & d.selected_s1_s2)==1,events(1),1) );
+
+
+ 
+events=sort(size(d.pulse_area_phe)); %The first element is the number of pulses. sometimes it's 5, sometimes it's 10
+cut_pulse_s1 = d.pulse_classification == 1 | d.pulse_classification == 9;
+cut_pulse_s2 = d.pulse_classification == 2;
+cut_s2_with_threshold = d.pulse_area_phe.*cut_pulse_s2 > 100; % subset of cut_pulse_s2
+cut_legit_s2_in_legit_event = d.s1s2_pairing.*cut_s2_with_threshold; % this should be used as s2 classification cuts
+cut_golden_event = sum(cut_legit_s2_in_legit_event) == 1; %defines golden events to be events which have one and only one paired S2 above the threshold of 100 phe - there can be multiple S1s still
+cut_s2_in_golden_events = logical(repmat(cut_golden_event,[10,1]).*cut_legit_s2_in_legit_event); %Selects S2 that is in a golden event
+cut_s1_in_golden_events = logical(repmat(cut_golden_event,[10,1]).*cut_pulse_s1.*d.s1s2_pairing); %Selects first S1 that is in a golden event
+% select Kr83 events with cut on S2
+cut_s2_area = inrange(d.pulse_area_phe, [s2area_bound_min, s2area_bound_max]);
+cut_s1_area = inrange(d.pulse_area_phe, [s1area_bound_min, s1area_bound_max]);
+cut_s2_for = cut_s2_in_golden_events.*cut_s2_area; %Selects S2 that is in a golden event and in Kr area bounds
+cut_s1_for = cut_s1_in_golden_events.*cut_s1_area; %Selects first S1 that is in a golden event and in Kr area bounds
+cut_selected_events = sum(cut_s2_for) == 1 & sum(cut_s1_for) == 1 & sum(d.pulse_classification==1)==1; %Requires that "good" golden events have only one S1, that the S1 be within area bounds, and the S2 be within area bounds
+%Note sum(cut_s1_for) == 1 above only requires that the first of the S1 in an event be within area bounds, since the S1S2pairing part of cut_s1_in_golden_events is 0 for all subsequent S1s in the events
+s1_single_cut = logical(repmat(cut_selected_events,[10,1]).*cut_s1_in_golden_events);
+s2_single_cut = logical(repmat(cut_selected_events,[10,1]).*cut_s2_in_golden_events);
+
+    drift_time = d.z_drift_samples(s2_single_cut)/100;  % us

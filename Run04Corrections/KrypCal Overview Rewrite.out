@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Description of the Nonuniform Electric Field}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Measuring the Run04 Electric Field}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Complications Arising from the Run04 Electric Field}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The Goal of KrypCal in Run04}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Measuring Electric Field Effects in 83mKr Data}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{General Strategy for Measuring the Field Effect}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Measuring Detector Inefficiency Corrections with CH3T}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Measuring Field Effects in 83mKr Data}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Measuring the S1a and S1b Pulse Areas in 83mKr data}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.5}{Relating the S1a/S1b Ratio to S2 Field Effects}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.6}{Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with Recombination Physics}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.7}{Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with the S1a Signal}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.8}{Expectation for G1}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.9}{Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with 2 Fitting Methods}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.10}{Measuring the S1a/S1b Ratio to S2 Field Effect Relationship with 2 Fitting Methods}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.11}{Summary of S1a/S1b Ratio to Field Effect Measurements}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Producing Detector Inefficiency Corrections in KrypCal}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Mapping S1a/S1b}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Removing the field effect from 83mKr Data}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Measuring Detector Inefficiencies}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Additional Output from KrypCal}{section.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Electron Lifetime}{subsection.4.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Single Electron Size}{subsection.4.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Electric Field Maps}{subsection.4.4}% 25
+\BOOKMARK [1][-]{section.5}{Results of the KrypCal Corrections}{}% 26
+\BOOKMARK [2][-]{subsection.5.1}{G1 and G2}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.2}{Energy Spectra}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.3}{Nuclear Recoil Band}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.4}{Electron Recoil Band}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 31
+\BOOKMARK [1][-]{appendix.A}{The 83mKr Decay}{}% 32

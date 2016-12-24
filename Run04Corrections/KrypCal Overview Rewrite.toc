@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {I}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {II}Description of the Nonuniform Electric Field}{4}{section.2}
+\contentsline {subsection}{\numberline {1}Measuring the Run04 Electric Field}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2}Complications Arising from the Run04 Electric Field}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {3}The Goal of KrypCal in Run04}{13}{subsection.2.3}
+\contentsline {section}{\numberline {III}Measuring Electric Field Effects in $^{83m}$Kr Data}{14}{section.3}
+\contentsline {subsection}{\numberline {1}General Strategy for Measuring the Field Effect}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {2}Measuring Detector Inefficiency Corrections with CH$_3$T}{16}{subsection.3.2}
+\contentsline {subsection}{\numberline {3}Measuring Field Effects in $^{83m}$Kr Data}{22}{subsection.3.3}
+\contentsline {subsection}{\numberline {4}Measuring the S1a and S1b Pulse Areas in $^{83m}$Kr data}{26}{subsection.3.4}
+\contentsline {subsection}{\numberline {5}Relating the S1a/S1b Ratio to S2 Field Effects}{27}{subsection.3.5}
+\contentsline {subsection}{\numberline {6}Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with Recombination Physics}{31}{subsection.3.6}
+\contentsline {subsection}{\numberline {7}Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with the S1a Signal}{36}{subsection.3.7}
+\contentsline {subsection}{\numberline {8}Expectation for G1}{42}{subsection.3.8}
+\contentsline {subsection}{\numberline {9}Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with $\chi ^2$ Fitting Methods}{42}{subsection.3.9}
+\contentsline {subsection}{\numberline {10}Measuring the S1a/S1b Ratio to S2 Field Effect Relationship with $\chi ^2$ Fitting Methods}{50}{subsection.3.10}
+\contentsline {subsection}{\numberline {11}Summary of S1a/S1b Ratio to Field Effect Measurements}{52}{subsection.3.11}
+\contentsline {section}{\numberline {IV}Producing Detector Inefficiency Corrections in KrypCal}{54}{section.4}
+\contentsline {subsection}{\numberline {1}Mapping S1a/S1b}{54}{subsection.4.1}
+\contentsline {subsection}{\numberline {2}Removing the field effect from $^{83m}$Kr Data}{55}{subsection.4.2}
+\contentsline {subsection}{\numberline {3}Measuring Detector Inefficiencies}{56}{subsection.4.3}
+\contentsline {subsection}{\numberline {4}Additional Output from KrypCal}{60}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {a}Electron Lifetime}{60}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {b}Single Electron Size}{62}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {c}Electric Field Maps}{64}{subsubsection.4.4.3}
+\contentsline {section}{\numberline {V}Results of the KrypCal Corrections}{65}{section.5}
+\contentsline {subsection}{\numberline {1}G1 and G2}{65}{subsection.5.1}
+\contentsline {subsection}{\numberline {2}Energy Spectra}{66}{subsection.5.2}
+\contentsline {subsection}{\numberline {3}Nuclear Recoil Band}{70}{subsection.5.3}
+\contentsline {subsection}{\numberline {4}Electron Recoil Band}{71}{subsection.5.4}
+\contentsline {section}{\numberline {VI}Conclusions}{76}{section.6}
+\contentsline {section}{\numberline {A}The $^{83m}$Kr Decay}{77}{appendix.A}

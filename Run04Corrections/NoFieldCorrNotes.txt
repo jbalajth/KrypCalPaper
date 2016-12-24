@@ -1,0 +1,25 @@
+g1=0.105, ee=0.98 <- TOTALLY UNREASONABLE ee FOR OUR FIELD, SHOULD BE MORE LIKE 0.7-0.8
+
+2014 lifetime = 374, 2015 lifetime= 351
+Again, totally unreasonable, way to fucking low.. leads to worse energy resolution
+latest krypcal: 2014 lifetime = 1,008 and 2015 lifetime = 1126
+
+best_total_chi2 =
+
+    3.3719
+
+
+best_total_kr_chi2 =
+
+    1.6754
+
+
+best_total_h3_chi2 =
+
+    5.0684
+
+Poor reduced chi2. (twice as bad as the field corrected method for CH3T)
+
+Without field corrections, KrypCal makes the Kr83m S1 and S2 signal uniform everywhere in the detector, 
+yet the total energy spectrum still has a z dependence due to recombination variation in the field that
+should NOT have been made uniform
