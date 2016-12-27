@@ -14,6 +14,9 @@
 ## Mac OS desktop store file
 .DS_Store
 
+## KrypCal_Paper.pdf output file
+KrypCal_Paper.pdf
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
